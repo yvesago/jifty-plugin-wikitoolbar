@@ -47,8 +47,7 @@ framework:
       default_escape_flags: h
       error_format: text
       error_mode: fatal
-#    Port: 8888
-    Port: 8001
+    Port: 8888
     ServeStaticFiles: 1
     StaticRoot: share/web/static
     TemplateRoot: share/web/templates
