@@ -23,11 +23,11 @@ In your Model instead of
 
 use
 
-  render_as 'Jifty::Plugin::WikiToolbar::Textarea';
+   is WikiToolbar;
 
 or you can custom rows size with
 
- sub Jifty::Plugin::WikiToolbar::Textarea::rows { return 5; };
+ sub Jifty::Plugin::WikiToolbar::Textarea::rows { return 15; };
 
 To custom the toolbar, copy wikitoolbar.js in your application, at the end of the file put your changes with addButton function.
 
@@ -71,7 +71,7 @@ Yves Agostini, <yvesago@cpan.org>
 
 =head1 LICENSE
 
-Copyright 2007-2009 Yves Agostini. All Rights Reserved.
+Copyright 2007-2010, Yves Agostini
 
 This program is free software and may be modified and distributed under the same terms as Perl itself.
 
