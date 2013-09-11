@@ -6,7 +6,7 @@ all_from       'lib/Jifty/Plugin/WikiToolbar.pm';
 build_requires 'Test::More';
 requires('Jifty' => '0.91117');
 
-resources repository => 'git@github.com:yvesago/jifty-plugin-wikitoolbar.git';
+repository 'git://github.com/yvesago/jifty-plugin-wikitoolbar.git';
 
 install_share;
 
